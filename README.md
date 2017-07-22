@@ -1,6 +1,7 @@
 # fw-utf8
 Modern fork of FunnelWeb 
 (original written by Ross Williams)
+original can be found here: http://www.ross.net/funnelweb/
 
 == Changelog ==
 - initial commit
