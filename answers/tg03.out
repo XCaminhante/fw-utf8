@@ -1,0 +1,21 @@
+The other day upon the stair,
+I met a man who wasn't there.
+He wasn't there again today,
+I think he's from the CIA.
+
+The following nest of begin and ends should be indented in a nest.
+
+begin0
+   begin1
+      begin2
+         begin3
+            begin4
+               begin wayout----------V
+                                     It's scary out here
+                                     So far from the left margin.
+               end   wayout----------^
+            end4
+         end3
+      end2
+   end1
+end0

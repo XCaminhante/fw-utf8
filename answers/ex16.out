@@ -1,0 +1,18 @@
+with text_io; use text_io;
+
+procedure example is
+   n : constant natural := 10;     -- How many numbers? (Ans: [1,n]).
+   p : constant natural :=  5;     -- How many powers?  (Ans: [1,p]).
+begin -- example
+   for i in 1..n loop
+      declare
+         ip : natural := 1;
+      begin
+         for power in 1..p loop
+            ip:=ip*i;
+            put(natural'image(ip) & " ");
+         end loop;
+         new_line;
+      end;
+   end loop;
+end example;

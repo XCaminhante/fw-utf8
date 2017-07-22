@@ -1,0 +1,6 @@
+
+while sloth<walrus loop
+    assert(sloth<walrus,"AWK! sloth>=walrus!!!!!!!");
+    assert(timer<timermax,"AWK! timer>=timermax!!!");
+   inc(sloth);
+end loop

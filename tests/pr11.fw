@@ -1,0 +1,63 @@
+PR11: Test parsing of library macros.
+
+1. Ensure that 0..5 Ls are OK, but six or seven is an error.
+
+@$@<Sloth_L0@>@Z@{@}
+@$@<Sloth_L1@>@Z@L@{@}
+@$@<Sloth_L2@>@Z@L@L@{@}
+@$@<Sloth_L3@>@Z@L@L@L@{@}
+@$@<Sloth_L4@>@Z@L@L@L@L@{@}
+@$@<Sloth_L5@>@Z@L@L@L@L@L@{@}
+@$@<Sloth_L6@>@Z@L@L@L@L@L@L@{@}
+@$@<Sloth_L7@>@Z@L@L@L@L@L@L@L@{@}
+
+2. Ensure that output macros can't also be library macros.
+
+@O@<pr11.out@>@L@{@}
+
+3. Ensure that you cannot define two macros with both the
+same name and level. Ensure that this works for all levels.
+
+@$@<Walrus_L0@>@Z@{@}
+@$@<Walrus_L0@>@Z@{@}
+
+@$@<Walrus_L1@>@Z@L@{@}
+@$@<Walrus_L1@>@Z@L@{@}
+
+@$@<Walrus_L2@>@Z@L@L@{@}
+@$@<Walrus_L2@>@Z@L@L@{@}
+
+@$@<Walrus_L3@>@Z@L@L@L@{@}
+@$@<Walrus_L3@>@Z@L@L@L@{@}
+
+@$@<Walrus_L4@>@Z@L@L@L@L@{@}
+@$@<Walrus_L4@>@Z@L@L@L@L@{@}
+
+@$@<Walrus_L5@>@Z@L@L@L@L@L@{@}
+@$@<Walrus_L5@>@Z@L@L@L@L@L@{@}
+
+4. Ensure that six identical levels can simultaneously exist.
+
+@$@<Aardvark_L0@>@Z@{@}
+@$@<Aardvark_L1@>@Z@L@{@}
+@$@<Aardvark_L2@>@Z@L@L@{@}
+@$@<Aardvark_L3@>@Z@L@L@L@{@}
+@$@<Aardvark_L4@>@Z@L@L@L@L@{@}
+@$@<Aardvark_L5@>@Z@L@L@L@L@L@{@}
+
+5. Ensure that different levels can have different modifiers.
+
+@$@<Emu@>@Z@M@{@}
+@$@<Emu@>@Z@L@{@}
+
+6. Ensure that different levels can have different parameter lists.
+
+@$@<Wombat@>@(@3@)@Z@{@}
+@$@<Wombat@>@(@1@)@Z@L@{@}
+
+7. Ensure that different levels can have differently additive.
+
+@$@<Penguin@>@Z==@{@}
+@$@<Penguin@>@Z@L+=@{@}
+
+End of library construct parser tests.

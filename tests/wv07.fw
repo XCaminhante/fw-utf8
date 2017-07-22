@@ -1,0 +1,45 @@
+WV07: Test the typesetting of library macros.
+
+@A@<1. Test an ordinary library macro.@>
+
+@$@<Sloth@>@Z@L@{I am the sloth@}
+
+
+@A@<2. Test a library macro with two body parts.@>
+
+@$@<Two body parts@>@Z@L+=@{Sloth@}
+@$@<Two body parts@>@L+=@{Walrus@}
+
+
+@A@<3. Test a library macro with three body parts.@>
+
+@$@<Three body parts@>@Z@L+=@{Sloth@}
+@$@<Three body parts@>@L+=@{Walrus@}
+@$@<Three body parts@>@L+=@{Aardvaark@}
+
+
+@A@<4. Test a library macro with five body parts.@>
+
+@$@<Five body parts@>@Z@L+=@{Sloth@}
+@$@<Five body parts@>@L+=@{Walrus@}
+@$@<Five body parts@>@L+=@{@<Three body parts@>@}
+@$@<Five body parts@>@L+=@{Aardvaark@}
+@$@<Five body parts@>@L+=@{@<Two body parts@>@}
+
+
+@A@<5. Test a library macro that is overruled.@>
+
+@$@<Walrus@>@Z@L@{Walrus library@}
+@$@<Walrus@>@Z@{Walrus main@}
+
+
+@A@<6. Test interlaced and overruled.@>
+
+@$@<Aardvark@>@Z@L+=@{First aardvark level one text (correct)@+@}
+@$@<Aardvark@>@L@L+=@{Second aardvark level two text@}
+@$@<Aardvark@>@L+=@{First aardvark level one text (correct)@+@}
+@$@<Aardvark@>@L@L+=@{Second aardvark level two text@}
+
+@O@<wv07.out@>@{@<Aardvark@>@}
+
+End of tests.

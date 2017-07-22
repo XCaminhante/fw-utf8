@@ -1,0 +1,12 @@
+AN05: Test analysis of library macros.
+
+1. Ensure that zero call detection works on library macros.
+
+@$@<Sloth@>@L@{@}
+
+2. Ensure that multiple call detection works on library macros.
+
+@$@<Walrus@>@L@{@}
+@$@<Aardvark@>@Z@{@<Walrus@>@<Walrus@>@}
+
+End of tests.

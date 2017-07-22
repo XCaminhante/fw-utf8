@@ -1,0 +1,12 @@
+#!/bin/env bash
+cd source
+echo compile and link...
+cc -c *.c
+compile_result=$?
+cc -o fw *.o
+link_result=$?
+cd ..
+if [ -e "./install" ] && [ $compile_result==0 ] && [ $link_result==0 ]; then
+  echo copying resulting binary to ~/.local/bin
+  ./install
+fi

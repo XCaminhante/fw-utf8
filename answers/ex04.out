@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+void doit()
+{
+ int i;
+ for (i=0;i<10;i++)
+   {
+    printf("Hello World!");
+    printf("\n");
+    printf("Hello World!");
+    printf("\n");
+   }
+}
+main()
+{
+ doit();
+}
+

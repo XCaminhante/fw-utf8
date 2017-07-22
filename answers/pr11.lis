@@ -1,0 +1,1782 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 50 52 31 31 3A 20 54 65 73 74 20 70 61 72 73 69 | PR11: Test parsi |
+| 6E 67 20 6F 66 20 6C 69 62 72 61 72 79 20 6D 61 | ng of library ma |
+| 63 72 6F 73 2E 0A 0A 31 2E 20 45 6E 73 75 72 65 | cros...1. Ensure |
+| 20 74 68 61 74 20 30 2E 2E 35 20 4C 73 20 61 72 |  that 0..5 Ls ar |
+| 65 20 4F 4B 2C 20 62 75 74 20 73 69 78 20 6F 72 | e OK, but six or |
+| 20 73 65 76 65 6E 20 69 73 20 61 6E 20 65 72 72 |  seven is an err |
+| 6F 72 2E 0A 0A 40 24 40 3C 53 6C 6F 74 68 5F 4C | or...@$@<Sloth_L |
+| 30 40 3E 40 5A 40 7B 40 7D 0A 40 24 40 3C 53 6C | 0@>@Z@{@}.@$@<Sl |
+| 6F 74 68 5F 4C 31 40 3E 40 5A 40 4C 40 7B 40 7D | oth_L1@>@Z@L@{@} |
+| 0A 40 24 40 3C 53 6C 6F 74 68 5F 4C 32 40 3E 40 | .@$@<Sloth_L2@>@ |
+| 5A 40 4C 40 4C 40 7B 40 7D 0A 40 24 40 3C 53 6C | Z@L@L@{@}.@$@<Sl |
+| 6F 74 68 5F 4C 33 40 3E 40 5A 40 4C 40 4C 40 4C | oth_L3@>@Z@L@L@L |
+| 40 7B 40 7D 0A 40 24 40 3C 53 6C 6F 74 68 5F 4C | @{@}.@$@<Sloth_L |
+| 34 40 3E 40 5A 40 4C 40 4C 40 4C 40 4C 40 7B 40 | 4@>@Z@L@L@L@L@{@ |
+| 7D 0A 40 24 40 3C 53 6C 6F 74 68 5F 4C 35 40 3E | }.@$@<Sloth_L5@> |
+| 40 5A 40 4C 40 4C 40 4C 40 4C 40 4C 40 7B 40 7D | @Z@L@L@L@L@L@{@} |
+| 0A 40 24 40 3C 53 6C 6F 74 68 5F 4C 36 40 3E 40 | .@$@<Sloth_L6@>@ |
+| 5A 40 4C 40 4C 40 4C 40 4C 40 4C 40 4C 40 7B 40 | Z@L@L@L@L@L@L@{@ |
+| 7D 0A 40 24 40 3C 53 6C 6F 74 68 5F 4C 37 40 3E | }.@$@<Sloth_L7@> |
+| 40 5A 40 4C 40 4C 40 4C 40 4C 40 4C 40 4C 40 4C | @Z@L@L@L@L@L@L@L |
+| 40 7B 40 7D 0A 0A 32 2E 20 45 6E 73 75 72 65 20 | @{@}..2. Ensure  |
+| 74 68 61 74 20 6F 75 74 70 75 74 20 6D 61 63 72 | that output macr |
+| 6F 73 20 63 61 6E 27 74 20 61 6C 73 6F 20 62 65 | os can't also be |
+| 20 6C 69 62 72 61 72 79 20 6D 61 63 72 6F 73 2E |  library macros. |
+| 0A 0A 40 4F 40 3C 70 72 31 31 2E 6F 75 74 40 3E | ..@O@<pr11.out@> |
+| 40 4C 40 7B 40 7D 0A 0A 33 2E 20 45 6E 73 75 72 | @L@{@}..3. Ensur |
+| 65 20 74 68 61 74 20 79 6F 75 20 63 61 6E 6E 6F | e that you canno |
+| 74 20 64 65 66 69 6E 65 20 74 77 6F 20 6D 61 63 | t define two mac |
+| 72 6F 73 20 77 69 74 68 20 62 6F 74 68 20 74 68 | ros with both th |
+| 65 0A 73 61 6D 65 20 6E 61 6D 65 20 61 6E 64 20 | e.same name and  |
+| 6C 65 76 65 6C 2E 20 45 6E 73 75 72 65 20 74 68 | level. Ensure th |
+| 61 74 20 74 68 69 73 20 77 6F 72 6B 73 20 66 6F | at this works fo |
+| 72 20 61 6C 6C 20 6C 65 76 65 6C 73 2E 0A 0A 40 | r all levels...@ |
+| 24 40 3C 57 61 6C 72 75 73 5F 4C 30 40 3E 40 5A | $@<Walrus_L0@>@Z |
+| 40 7B 40 7D 0A 40 24 40 3C 57 61 6C 72 75 73 5F | @{@}.@$@<Walrus_ |
+| 4C 30 40 3E 40 5A 40 7B 40 7D 0A 0A 40 24 40 3C | L0@>@Z@{@}..@$@< |
+| 57 61 6C 72 75 73 5F 4C 31 40 3E 40 5A 40 4C 40 | Walrus_L1@>@Z@L@ |
+| 7B 40 7D 0A 40 24 40 3C 57 61 6C 72 75 73 5F 4C | {@}.@$@<Walrus_L |
+| 31 40 3E 40 5A 40 4C 40 7B 40 7D 0A 0A 40 24 40 | 1@>@Z@L@{@}..@$@ |
+| 3C 57 61 6C 72 75 73 5F 4C 32 40 3E 40 5A 40 4C | <Walrus_L2@>@Z@L |
+| 40 4C 40 7B 40 7D 0A 40 24 40 3C 57 61 6C 72 75 | @L@{@}.@$@<Walru |
+| 73 5F 4C 32 40 3E 40 5A 40 4C 40 4C 40 7B 40 7D | s_L2@>@Z@L@L@{@} |
+| 0A 0A 40 24 40 3C 57 61 6C 72 75 73 5F 4C 33 40 | ..@$@<Walrus_L3@ |
+| 3E 40 5A 40 4C 40 4C 40 4C 40 7B 40 7D 0A 40 24 | >@Z@L@L@L@{@}.@$ |
+| 40 3C 57 61 6C 72 75 73 5F 4C 33 40 3E 40 5A 40 | @<Walrus_L3@>@Z@ |
+| 4C 40 4C 40 4C 40 7B 40 7D 0A 0A 40 24 40 3C 57 | L@L@L@{@}..@$@<W |
+| 61 6C 72 75 73 5F 4C 34 40 3E 40 5A 40 4C 40 4C | alrus_L4@>@Z@L@L |
+| 40 4C 40 4C 40 7B 40 7D 0A 40 24 40 3C 57 61 6C | @L@L@{@}.@$@<Wal |
+| 72 75 73 5F 4C 34 40 3E 40 5A 40 4C 40 4C 40 4C | rus_L4@>@Z@L@L@L |
+| 40 4C 40 7B 40 7D 0A 0A 40 24 40 3C 57 61 6C 72 | @L@{@}..@$@<Walr |
+| 75 73 5F 4C 35 40 3E 40 5A 40 4C 40 4C 40 4C 40 | us_L5@>@Z@L@L@L@ |
+| 4C 40 4C 40 7B 40 7D 0A 40 24 40 3C 57 61 6C 72 | L@L@{@}.@$@<Walr |
+| 75 73 5F 4C 35 40 3E 40 5A 40 4C 40 4C 40 4C 40 | us_L5@>@Z@L@L@L@ |
+| 4C 40 4C 40 7B 40 7D 0A 0A 34 2E 20 45 6E 73 75 | L@L@{@}..4. Ensu |
+| 72 65 20 74 68 61 74 20 73 69 78 20 69 64 65 6E | re that six iden |
+| 74 69 63 61 6C 20 6C 65 76 65 6C 73 20 63 61 6E | tical levels can |
+| 20 73 69 6D 75 6C 74 61 6E 65 6F 75 73 6C 79 20 |  simultaneously  |
+| 65 78 69 73 74 2E 0A 0A 40 24 40 3C 41 61 72 64 | exist...@$@<Aard |
+| 76 61 72 6B 5F 4C 30 40 3E 40 5A 40 7B 40 7D 0A | vark_L0@>@Z@{@}. |
+| 40 24 40 3C 41 61 72 64 76 61 72 6B 5F 4C 31 40 | @$@<Aardvark_L1@ |
+| 3E 40 5A 40 4C 40 7B 40 7D 0A 40 24 40 3C 41 61 | >@Z@L@{@}.@$@<Aa |
+| 72 64 76 61 72 6B 5F 4C 32 40 3E 40 5A 40 4C 40 | rdvark_L2@>@Z@L@ |
+| 4C 40 7B 40 7D 0A 40 24 40 3C 41 61 72 64 76 61 | L@{@}.@$@<Aardva |
+| 72 6B 5F 4C 33 40 3E 40 5A 40 4C 40 4C 40 4C 40 | rk_L3@>@Z@L@L@L@ |
+| 7B 40 7D 0A 40 24 40 3C 41 61 72 64 76 61 72 6B | {@}.@$@<Aardvark |
+| 5F 4C 34 40 3E 40 5A 40 4C 40 4C 40 4C 40 4C 40 | _L4@>@Z@L@L@L@L@ |
+| 7B 40 7D 0A 40 24 40 3C 41 61 72 64 76 61 72 6B | {@}.@$@<Aardvark |
+| 5F 4C 35 40 3E 40 5A 40 4C 40 4C 40 4C 40 4C 40 | _L5@>@Z@L@L@L@L@ |
+| 4C 40 7B 40 7D 0A 0A 35 2E 20 45 6E 73 75 72 65 | L@{@}..5. Ensure |
+| 20 74 68 61 74 20 64 69 66 66 65 72 65 6E 74 20 |  that different  |
+| 6C 65 76 65 6C 73 20 63 61 6E 20 68 61 76 65 20 | levels can have  |
+| 64 69 66 66 65 72 65 6E 74 20 6D 6F 64 69 66 69 | different modifi |
+| 65 72 73 2E 0A 0A 40 24 40 3C 45 6D 75 40 3E 40 | ers...@$@<Emu@>@ |
+| 5A 40 4D 40 7B 40 7D 0A 40 24 40 3C 45 6D 75 40 | Z@M@{@}.@$@<Emu@ |
+| 3E 40 5A 40 4C 40 7B 40 7D 0A 0A 36 2E 20 45 6E | >@Z@L@{@}..6. En |
+| 73 75 72 65 20 74 68 61 74 20 64 69 66 66 65 72 | sure that differ |
+| 65 6E 74 20 6C 65 76 65 6C 73 20 63 61 6E 20 68 | ent levels can h |
+| 61 76 65 20 64 69 66 66 65 72 65 6E 74 20 70 61 | ave different pa |
+| 72 61 6D 65 74 65 72 20 6C 69 73 74 73 2E 0A 0A | rameter lists... |
+| 40 24 40 3C 57 6F 6D 62 61 74 40 3E 40 28 40 33 | @$@<Wombat@>@(@3 |
+| 40 29 40 5A 40 7B 40 7D 0A 40 24 40 3C 57 6F 6D | @)@Z@{@}.@$@<Wom |
+| 62 61 74 40 3E 40 28 40 31 40 29 40 5A 40 4C 40 | bat@>@(@1@)@Z@L@ |
+| 7B 40 7D 0A 0A 37 2E 20 45 6E 73 75 72 65 20 74 | {@}..7. Ensure t |
+| 68 61 74 20 64 69 66 66 65 72 65 6E 74 20 6C 65 | hat different le |
+| 76 65 6C 73 20 63 61 6E 20 68 61 76 65 20 64 69 | vels can have di |
+| 66 66 65 72 65 6E 74 6C 79 20 61 64 64 69 74 69 | fferently additi |
+| 76 65 2E 0A 0A 40 24 40 3C 50 65 6E 67 75 69 6E | ve...@$@<Penguin |
+| 40 3E 40 5A 3D 3D 40 7B 40 7D 0A 40 24 40 3C 50 | @>@Z==@{@}.@$@<P |
+| 65 6E 67 75 69 6E 40 3E 40 5A 40 4C 2B 3D 40 7B | enguin@>@Z@L+=@{ |
+| 40 7D 0A 0A 45 6E 64 20 6F 66 20 6C 69 62 72 61 | @}..End of libra |
+| 72 79 20 63 6F 6E 73 74 72 75 63 74 20 70 61 72 | ry construct par |
+| 73 65 72 20 74 65 73 74 73 2E 0A                | ser tests..      |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| PR11: Test parsing of library macros.<010>
+00002 00002| <010>
+00003 00003| 1. Ensure that 0..5 Ls are OK, but six or seven is an error.<010>
+00004 00004| <010>
+00005 00005| @$@<Sloth_L0@>@Z@{@}<010>
+00006 00006| @$@<Sloth_L1@>@Z@L@{@}<010>
+00007 00007| @$@<Sloth_L2@>@Z@L@L@{@}<010>
+00008 00008| @$@<Sloth_L3@>@Z@L@L@L@{@}<010>
+00009 00009| @$@<Sloth_L4@>@Z@L@L@L@L@{@}<010>
+00010 00010| @$@<Sloth_L5@>@Z@L@L@L@L@L@{@}<010>
+00011 00011| @$@<Sloth_L6@>@Z@L@L@L@L@L@L@{@}<010>
+00012 00012| @$@<Sloth_L7@>@Z@L@L@L@L@L@L@L@{@}<010>
+00013 00013| <010>
+00014 00014| 2. Ensure that output macros can't also be library macros.<010>
+00015 00015| <010>
+00016 00016| @O@<pr11.out@>@L@{@}<010>
+00017 00017| <010>
+00018 00018| 3. Ensure that you cannot define two macros with both the<010>
+00019 00019| same name and level. Ensure that this works for all levels.<010>
+00020 00020| <010>
+00021 00021| @$@<Walrus_L0@>@Z@{@}<010>
+00022 00022| @$@<Walrus_L0@>@Z@{@}<010>
+00023 00023| <010>
+00024 00024| @$@<Walrus_L1@>@Z@L@{@}<010>
+00025 00025| @$@<Walrus_L1@>@Z@L@{@}<010>
+00026 00026| <010>
+00027 00027| @$@<Walrus_L2@>@Z@L@L@{@}<010>
+00028 00028| @$@<Walrus_L2@>@Z@L@L@{@}<010>
+00029 00029| <010>
+00030 00030| @$@<Walrus_L3@>@Z@L@L@L@{@}<010>
+00031 00031| @$@<Walrus_L3@>@Z@L@L@L@{@}<010>
+00032 00032| <010>
+00033 00033| @$@<Walrus_L4@>@Z@L@L@L@L@{@}<010>
+00034 00034| @$@<Walrus_L4@>@Z@L@L@L@L@{@}<010>
+00035 00035| <010>
+00036 00036| @$@<Walrus_L5@>@Z@L@L@L@L@L@{@}<010>
+00037 00037| @$@<Walrus_L5@>@Z@L@L@L@L@L@{@}<010>
+00038 00038| <010>
+00039 00039| 4. Ensure that six identical levels can simultaneously exist.<010>
+00040 00040| <010>
+00041 00041| @$@<Aardvark_L0@>@Z@{@}<010>
+00042 00042| @$@<Aardvark_L1@>@Z@L@{@}<010>
+00043 00043| @$@<Aardvark_L2@>@Z@L@L@{@}<010>
+00044 00044| @$@<Aardvark_L3@>@Z@L@L@L@{@}<010>
+00045 00045| @$@<Aardvark_L4@>@Z@L@L@L@L@{@}<010>
+00046 00046| @$@<Aardvark_L5@>@Z@L@L@L@L@L@{@}<010>
+00047 00047| <010>
+00048 00048| 5. Ensure that different levels can have different modifiers.<010>
+00049 00049| <010>
+00050 00050| @$@<Emu@>@Z@M@{@}<010>
+00051 00051| @$@<Emu@>@Z@L@{@}<010>
+00052 00052| <010>
+00053 00053| 6. Ensure that different levels can have different parameter lists.<010>
+00054 00054| <010>
+00055 00055| @$@<Wombat@>@(@3@)@Z@{@}<010>
+00056 00056| @$@<Wombat@>@(@1@)@Z@L@{@}<010>
+00057 00057| <010>
+00058 00058| 7. Ensure that different levels can have differently additive.<010>
+00059 00059| <010>
+00060 00060| @$@<Penguin@>@Z==@{@}<010>
+00061 00061| @$@<Penguin@>@Z@L+=@{@}<010>
+00062 00062| <010>
+00063 00063| End of library construct parser tests.<010>
+00064 00064| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 351 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="PR11: Test parsing of library macros.<010>
+<010>
+1. Ensure that 0..5 Ls are OK, but six or seven is an error.<010>
+<010>
+"
+0005[01]: @$ Macro defn. 
+0005[03]: @< Open name. 
+0005[05]: Text. Text scrap[Grey]="Sloth_L0"
+0005[13]: @> Close name. 
+0005[15]: @Z Zero calls. 
+0005[17]: @{ Open defn. 
+0005[19]: @} Close defn. 
+0005[21]: Text. Text scrap[White]="<010>
+"
+0006[01]: @$ Macro defn. 
+0006[03]: @< Open name. 
+0006[05]: Text. Text scrap[Grey]="Sloth_L1"
+0006[13]: @> Close name. 
+0006[15]: @Z Zero calls. 
+0006[17]: @L Library. 
+0006[19]: @{ Open defn. 
+0006[21]: @} Close defn. 
+0006[23]: Text. Text scrap[White]="<010>
+"
+0007[01]: @$ Macro defn. 
+0007[03]: @< Open name. 
+0007[05]: Text. Text scrap[Grey]="Sloth_L2"
+0007[13]: @> Close name. 
+0007[15]: @Z Zero calls. 
+0007[17]: @L Library. 
+0007[19]: @L Library. 
+0007[21]: @{ Open defn. 
+0007[23]: @} Close defn. 
+0007[25]: Text. Text scrap[White]="<010>
+"
+0008[01]: @$ Macro defn. 
+0008[03]: @< Open name. 
+0008[05]: Text. Text scrap[Grey]="Sloth_L3"
+0008[13]: @> Close name. 
+0008[15]: @Z Zero calls. 
+0008[17]: @L Library. 
+0008[19]: @L Library. 
+0008[21]: @L Library. 
+0008[23]: @{ Open defn. 
+0008[25]: @} Close defn. 
+0008[27]: Text. Text scrap[White]="<010>
+"
+0009[01]: @$ Macro defn. 
+0009[03]: @< Open name. 
+0009[05]: Text. Text scrap[Grey]="Sloth_L4"
+0009[13]: @> Close name. 
+0009[15]: @Z Zero calls. 
+0009[17]: @L Library. 
+0009[19]: @L Library. 
+0009[21]: @L Library. 
+0009[23]: @L Library. 
+0009[25]: @{ Open defn. 
+0009[27]: @} Close defn. 
+0009[29]: Text. Text scrap[White]="<010>
+"
+0010[01]: @$ Macro defn. 
+0010[03]: @< Open name. 
+0010[05]: Text. Text scrap[Grey]="Sloth_L5"
+0010[13]: @> Close name. 
+0010[15]: @Z Zero calls. 
+0010[17]: @L Library. 
+0010[19]: @L Library. 
+0010[21]: @L Library. 
+0010[23]: @L Library. 
+0010[25]: @L Library. 
+0010[27]: @{ Open defn. 
+0010[29]: @} Close defn. 
+0010[31]: Text. Text scrap[White]="<010>
+"
+0011[01]: @$ Macro defn. 
+0011[03]: @< Open name. 
+0011[05]: Text. Text scrap[Grey]="Sloth_L6"
+0011[13]: @> Close name. 
+0011[15]: @Z Zero calls. 
+0011[17]: @L Library. 
+0011[19]: @L Library. 
+0011[21]: @L Library. 
+0011[23]: @L Library. 
+0011[25]: @L Library. 
+0011[27]: @L Library. 
+0011[29]: @{ Open defn. 
+0011[31]: @} Close defn. 
+0011[33]: Text. Text scrap[White]="<010>
+"
+0012[01]: @$ Macro defn. 
+0012[03]: @< Open name. 
+0012[05]: Text. Text scrap[Grey]="Sloth_L7"
+0012[13]: @> Close name. 
+0012[15]: @Z Zero calls. 
+0012[17]: @L Library. 
+0012[19]: @L Library. 
+0012[21]: @L Library. 
+0012[23]: @L Library. 
+0012[25]: @L Library. 
+0012[27]: @L Library. 
+0012[29]: @L Library. 
+0012[31]: @{ Open defn. 
+0012[33]: @} Close defn. 
+0012[35]: Text. Text scrap[Grey]="<010>
+<010>
+2. Ensure that output macros can't also be library macros.<010>
+<010>
+"
+0016[01]: @F File defn. 
+0016[03]: @< Open name. 
+0016[05]: Text. Text scrap[Grey]="pr11.out"
+0016[13]: @> Close name. 
+0016[15]: @L Library. 
+0016[17]: @{ Open defn. 
+0016[19]: @} Close defn. 
+0016[21]: Text. Text scrap[Grey]="<010>
+<010>
+3. Ensure that you cannot define two macros with both the<010>
+same name and level. Ensure that this works for all levels.<010>
+<010>
+"
+0021[01]: @$ Macro defn. 
+0021[03]: @< Open name. 
+0021[05]: Text. Text scrap[Grey]="Walrus_L0"
+0021[14]: @> Close name. 
+0021[16]: @Z Zero calls. 
+0021[18]: @{ Open defn. 
+0021[20]: @} Close defn. 
+0021[22]: Text. Text scrap[White]="<010>
+"
+0022[01]: @$ Macro defn. 
+0022[03]: @< Open name. 
+0022[05]: Text. Text scrap[Grey]="Walrus_L0"
+0022[14]: @> Close name. 
+0022[16]: @Z Zero calls. 
+0022[18]: @{ Open defn. 
+0022[20]: @} Close defn. 
+0022[22]: Text. Text scrap[White]="<010>
+<010>
+"
+0024[01]: @$ Macro defn. 
+0024[03]: @< Open name. 
+0024[05]: Text. Text scrap[Grey]="Walrus_L1"
+0024[14]: @> Close name. 
+0024[16]: @Z Zero calls. 
+0024[18]: @L Library. 
+0024[20]: @{ Open defn. 
+0024[22]: @} Close defn. 
+0024[24]: Text. Text scrap[White]="<010>
+"
+0025[01]: @$ Macro defn. 
+0025[03]: @< Open name. 
+0025[05]: Text. Text scrap[Grey]="Walrus_L1"
+0025[14]: @> Close name. 
+0025[16]: @Z Zero calls. 
+0025[18]: @L Library. 
+0025[20]: @{ Open defn. 
+0025[22]: @} Close defn. 
+0025[24]: Text. Text scrap[White]="<010>
+<010>
+"
+0027[01]: @$ Macro defn. 
+0027[03]: @< Open name. 
+0027[05]: Text. Text scrap[Grey]="Walrus_L2"
+0027[14]: @> Close name. 
+0027[16]: @Z Zero calls. 
+0027[18]: @L Library. 
+0027[20]: @L Library. 
+0027[22]: @{ Open defn. 
+0027[24]: @} Close defn. 
+0027[26]: Text. Text scrap[White]="<010>
+"
+0028[01]: @$ Macro defn. 
+0028[03]: @< Open name. 
+0028[05]: Text. Text scrap[Grey]="Walrus_L2"
+0028[14]: @> Close name. 
+0028[16]: @Z Zero calls. 
+0028[18]: @L Library. 
+0028[20]: @L Library. 
+0028[22]: @{ Open defn. 
+0028[24]: @} Close defn. 
+0028[26]: Text. Text scrap[White]="<010>
+<010>
+"
+0030[01]: @$ Macro defn. 
+0030[03]: @< Open name. 
+0030[05]: Text. Text scrap[Grey]="Walrus_L3"
+0030[14]: @> Close name. 
+0030[16]: @Z Zero calls. 
+0030[18]: @L Library. 
+0030[20]: @L Library. 
+0030[22]: @L Library. 
+0030[24]: @{ Open defn. 
+0030[26]: @} Close defn. 
+0030[28]: Text. Text scrap[White]="<010>
+"
+0031[01]: @$ Macro defn. 
+0031[03]: @< Open name. 
+0031[05]: Text. Text scrap[Grey]="Walrus_L3"
+0031[14]: @> Close name. 
+0031[16]: @Z Zero calls. 
+0031[18]: @L Library. 
+0031[20]: @L Library. 
+0031[22]: @L Library. 
+0031[24]: @{ Open defn. 
+0031[26]: @} Close defn. 
+0031[28]: Text. Text scrap[White]="<010>
+<010>
+"
+0033[01]: @$ Macro defn. 
+0033[03]: @< Open name. 
+0033[05]: Text. Text scrap[Grey]="Walrus_L4"
+0033[14]: @> Close name. 
+0033[16]: @Z Zero calls. 
+0033[18]: @L Library. 
+0033[20]: @L Library. 
+0033[22]: @L Library. 
+0033[24]: @L Library. 
+0033[26]: @{ Open defn. 
+0033[28]: @} Close defn. 
+0033[30]: Text. Text scrap[White]="<010>
+"
+0034[01]: @$ Macro defn. 
+0034[03]: @< Open name. 
+0034[05]: Text. Text scrap[Grey]="Walrus_L4"
+0034[14]: @> Close name. 
+0034[16]: @Z Zero calls. 
+0034[18]: @L Library. 
+0034[20]: @L Library. 
+0034[22]: @L Library. 
+0034[24]: @L Library. 
+0034[26]: @{ Open defn. 
+0034[28]: @} Close defn. 
+0034[30]: Text. Text scrap[White]="<010>
+<010>
+"
+0036[01]: @$ Macro defn. 
+0036[03]: @< Open name. 
+0036[05]: Text. Text scrap[Grey]="Walrus_L5"
+0036[14]: @> Close name. 
+0036[16]: @Z Zero calls. 
+0036[18]: @L Library. 
+0036[20]: @L Library. 
+0036[22]: @L Library. 
+0036[24]: @L Library. 
+0036[26]: @L Library. 
+0036[28]: @{ Open defn. 
+0036[30]: @} Close defn. 
+0036[32]: Text. Text scrap[White]="<010>
+"
+0037[01]: @$ Macro defn. 
+0037[03]: @< Open name. 
+0037[05]: Text. Text scrap[Grey]="Walrus_L5"
+0037[14]: @> Close name. 
+0037[16]: @Z Zero calls. 
+0037[18]: @L Library. 
+0037[20]: @L Library. 
+0037[22]: @L Library. 
+0037[24]: @L Library. 
+0037[26]: @L Library. 
+0037[28]: @{ Open defn. 
+0037[30]: @} Close defn. 
+0037[32]: Text. Text scrap[Grey]="<010>
+<010>
+4. Ensure that six identical levels can simultaneously exist.<010>
+<010>
+"
+0041[01]: @$ Macro defn. 
+0041[03]: @< Open name. 
+0041[05]: Text. Text scrap[Grey]="Aardvark_L0"
+0041[16]: @> Close name. 
+0041[18]: @Z Zero calls. 
+0041[20]: @{ Open defn. 
+0041[22]: @} Close defn. 
+0041[24]: Text. Text scrap[White]="<010>
+"
+0042[01]: @$ Macro defn. 
+0042[03]: @< Open name. 
+0042[05]: Text. Text scrap[Grey]="Aardvark_L1"
+0042[16]: @> Close name. 
+0042[18]: @Z Zero calls. 
+0042[20]: @L Library. 
+0042[22]: @{ Open defn. 
+0042[24]: @} Close defn. 
+0042[26]: Text. Text scrap[White]="<010>
+"
+0043[01]: @$ Macro defn. 
+0043[03]: @< Open name. 
+0043[05]: Text. Text scrap[Grey]="Aardvark_L2"
+0043[16]: @> Close name. 
+0043[18]: @Z Zero calls. 
+0043[20]: @L Library. 
+0043[22]: @L Library. 
+0043[24]: @{ Open defn. 
+0043[26]: @} Close defn. 
+0043[28]: Text. Text scrap[White]="<010>
+"
+0044[01]: @$ Macro defn. 
+0044[03]: @< Open name. 
+0044[05]: Text. Text scrap[Grey]="Aardvark_L3"
+0044[16]: @> Close name. 
+0044[18]: @Z Zero calls. 
+0044[20]: @L Library. 
+0044[22]: @L Library. 
+0044[24]: @L Library. 
+0044[26]: @{ Open defn. 
+0044[28]: @} Close defn. 
+0044[30]: Text. Text scrap[White]="<010>
+"
+0045[01]: @$ Macro defn. 
+0045[03]: @< Open name. 
+0045[05]: Text. Text scrap[Grey]="Aardvark_L4"
+0045[16]: @> Close name. 
+0045[18]: @Z Zero calls. 
+0045[20]: @L Library. 
+0045[22]: @L Library. 
+0045[24]: @L Library. 
+0045[26]: @L Library. 
+0045[28]: @{ Open defn. 
+0045[30]: @} Close defn. 
+0045[32]: Text. Text scrap[White]="<010>
+"
+0046[01]: @$ Macro defn. 
+0046[03]: @< Open name. 
+0046[05]: Text. Text scrap[Grey]="Aardvark_L5"
+0046[16]: @> Close name. 
+0046[18]: @Z Zero calls. 
+0046[20]: @L Library. 
+0046[22]: @L Library. 
+0046[24]: @L Library. 
+0046[26]: @L Library. 
+0046[28]: @L Library. 
+0046[30]: @{ Open defn. 
+0046[32]: @} Close defn. 
+0046[34]: Text. Text scrap[Grey]="<010>
+<010>
+5. Ensure that different levels can have different modifiers.<010>
+<010>
+"
+0050[01]: @$ Macro defn. 
+0050[03]: @< Open name. 
+0050[05]: Text. Text scrap[Grey]="Emu"
+0050[08]: @> Close name. 
+0050[10]: @Z Zero calls. 
+0050[12]: @M Many calls. 
+0050[14]: @{ Open defn. 
+0050[16]: @} Close defn. 
+0050[18]: Text. Text scrap[White]="<010>
+"
+0051[01]: @$ Macro defn. 
+0051[03]: @< Open name. 
+0051[05]: Text. Text scrap[Grey]="Emu"
+0051[08]: @> Close name. 
+0051[10]: @Z Zero calls. 
+0051[12]: @L Library. 
+0051[14]: @{ Open defn. 
+0051[16]: @} Close defn. 
+0051[18]: Text. Text scrap[Grey]="<010>
+<010>
+6. Ensure that different levels can have different parameter lists.<010>
+<010>
+"
+0055[01]: @$ Macro defn. 
+0055[03]: @< Open name. 
+0055[05]: Text. Text scrap[Grey]="Wombat"
+0055[11]: @> Close name. 
+0055[13]: @( Open param. 
+0055[15]: @n Parameter. Parameterno=3.
+0055[17]: @} Close param. 
+0055[19]: @Z Zero calls. 
+0055[21]: @{ Open defn. 
+0055[23]: @} Close defn. 
+0055[25]: Text. Text scrap[White]="<010>
+"
+0056[01]: @$ Macro defn. 
+0056[03]: @< Open name. 
+0056[05]: Text. Text scrap[Grey]="Wombat"
+0056[11]: @> Close name. 
+0056[13]: @( Open param. 
+0056[15]: @n Parameter. Parameterno=1.
+0056[17]: @} Close param. 
+0056[19]: @Z Zero calls. 
+0056[21]: @L Library. 
+0056[23]: @{ Open defn. 
+0056[25]: @} Close defn. 
+0056[27]: Text. Text scrap[Grey]="<010>
+<010>
+7. Ensure that different levels can have differently additive.<010>
+<010>
+"
+0060[01]: @$ Macro defn. 
+0060[03]: @< Open name. 
+0060[05]: Text. Text scrap[Grey]="Penguin"
+0060[12]: @> Close name. 
+0060[14]: @Z Zero calls. 
+0060[16]: Text. Text scrap[Grey]="=="
+0060[18]: @{ Open defn. 
+0060[20]: @} Close defn. 
+0060[22]: Text. Text scrap[White]="<010>
+"
+0061[01]: @$ Macro defn. 
+0061[03]: @< Open name. 
+0061[05]: Text. Text scrap[Grey]="Penguin"
+0061[12]: @> Close name. 
+0061[14]: @Z Zero calls. 
+0061[16]: @L Library. 
+0061[18]: Text. Text scrap[Grey]="+="
+0061[20]: @{ Open defn. 
+0061[22]: @} Close defn. 
+0061[24]: Text. Text scrap[Grey]="<010>
+<010>
+End of library construct parser tests.<010>
+"
+0064[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Aardvark_L0"
+Macro MinLv : 0
+Call list   :
+
+Level 0 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (41,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=13, Pos(L,C)=(41,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Aardvark_L1"
+Macro MinLv : 1
+Call list   :
+Level 0 is not defined.
+
+Level 1 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (42,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=14, Pos(L,C)=(42,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Aardvark_L2"
+Macro MinLv : 2
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+
+Level 2 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (43,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=15, Pos(L,C)=(43,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Aardvark_L3"
+Macro MinLv : 3
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+
+Level 3 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (44,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=16, Pos(L,C)=(44,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Aardvark_L4"
+Macro MinLv : 4
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+
+Level 4 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (45,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=17, Pos(L,C)=(45,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Aardvark_L5"
+Macro MinLv : 5
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+
+Level 5 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (46,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=18, Pos(L,C)=(46,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Emu"
+Macro MinLv : 0
+Call list   :
+
+Level 0 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (50,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : Yes.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=19, Pos(L,C)=(50,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+
+Level 1 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (51,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=20, Pos(L,C)=(51,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Penguin"
+Macro MinLv : 0
+Call list   :
+
+Level 0 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (60,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=23, Pos(L,C)=(60,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+
+Level 1 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (61,1)
+Additive?   : Yes.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=24, Pos(L,C)=(61,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth_L0"
+Macro MinLv : 0
+Call list   :
+
+Level 0 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (5,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=1, Pos(L,C)=(5,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth_L1"
+Macro MinLv : 1
+Call list   :
+Level 0 is not defined.
+
+Level 1 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (6,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=2, Pos(L,C)=(6,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth_L2"
+Macro MinLv : 2
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+
+Level 2 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (7,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=3, Pos(L,C)=(7,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth_L3"
+Macro MinLv : 3
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+
+Level 3 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (8,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=4, Pos(L,C)=(8,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth_L4"
+Macro MinLv : 4
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+
+Level 4 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (9,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=5, Pos(L,C)=(9,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth_L5"
+Macro MinLv : 5
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+
+Level 5 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (10,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=6, Pos(L,C)=(10,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth_L6"
+Macro MinLv : 6
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth_L7"
+Macro MinLv : 6
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Walrus_L0"
+Macro MinLv : 0
+Call list   :
+
+Level 0 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (21,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=7, Pos(L,C)=(21,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Walrus_L1"
+Macro MinLv : 1
+Call list   :
+Level 0 is not defined.
+
+Level 1 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (24,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=8, Pos(L,C)=(24,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Walrus_L2"
+Macro MinLv : 2
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+
+Level 2 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (27,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=9, Pos(L,C)=(27,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Walrus_L3"
+Macro MinLv : 3
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+
+Level 3 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (30,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=10, Pos(L,C)=(30,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Walrus_L4"
+Macro MinLv : 4
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+
+Level 4 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (33,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=11, Pos(L,C)=(33,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Walrus_L5"
+Macro MinLv : 5
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+
+Level 5 is defined as follows.
+Parameters  : 0
+Pos(L,C)    : (36,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=12, Pos(L,C)=(36,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Wombat"
+Macro MinLv : 0
+Call list   :
+
+Level 0 is defined as follows.
+Parameters  : 3
+Pos(L,C)    : (55,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=21, Pos(L,C)=(55,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+
+Level 1 is defined as follows.
+Parameters  : 1
+Pos(L,C)    : (56,1)
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=22, Pos(L,C)=(56,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "pr11.out"
+Macro MinLv : 6
+Call list   :
+Level 0 is not defined.
+Level 1 is not defined.
+Level 2 is not defined.
+Level 3 is not defined.
+Level 4 is not defined.
+Level 5 is not defined.
+-------------------- End of Macro Dump ---------------------
+
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="PR11: Test parsing of library macros.<010>
+<010>
+1. Ensure that 0..5 Ls are OK, but six or seven is an error.<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(5,1). 
+Part 1 of level 0 of macro @<Sloth_L0@>.
+
+TEXT COMPONENT: Pos(L,C)=(5,21). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(6,1). 
+Part 1 of level 1 of macro @<Sloth_L1@>.
+
+TEXT COMPONENT: Pos(L,C)=(6,23). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(7,1). 
+Part 1 of level 2 of macro @<Sloth_L2@>.
+
+TEXT COMPONENT: Pos(L,C)=(7,25). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(8,1). 
+Part 1 of level 3 of macro @<Sloth_L3@>.
+
+TEXT COMPONENT: Pos(L,C)=(8,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(9,1). 
+Part 1 of level 4 of macro @<Sloth_L4@>.
+
+TEXT COMPONENT: Pos(L,C)=(9,29). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(10,1). 
+Part 1 of level 5 of macro @<Sloth_L5@>.
+
+TEXT COMPONENT: Pos(L,C)=(10,31). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(21,1). 
+Part 1 of level 0 of macro @<Walrus_L0@>.
+
+TEXT COMPONENT: Pos(L,C)=(21,22). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(24,1). 
+Part 1 of level 1 of macro @<Walrus_L1@>.
+
+TEXT COMPONENT: Pos(L,C)=(24,24). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(27,1). 
+Part 1 of level 2 of macro @<Walrus_L2@>.
+
+TEXT COMPONENT: Pos(L,C)=(27,26). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(30,1). 
+Part 1 of level 3 of macro @<Walrus_L3@>.
+
+TEXT COMPONENT: Pos(L,C)=(30,28). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(33,1). 
+Part 1 of level 4 of macro @<Walrus_L4@>.
+
+TEXT COMPONENT: Pos(L,C)=(33,30). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(36,1). 
+Part 1 of level 5 of macro @<Walrus_L5@>.
+
+TEXT COMPONENT: Pos(L,C)=(36,32). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(41,1). 
+Part 1 of level 0 of macro @<Aardvark_L0@>.
+
+TEXT COMPONENT: Pos(L,C)=(41,24). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(42,1). 
+Part 1 of level 1 of macro @<Aardvark_L1@>.
+
+TEXT COMPONENT: Pos(L,C)=(42,26). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(43,1). 
+Part 1 of level 2 of macro @<Aardvark_L2@>.
+
+TEXT COMPONENT: Pos(L,C)=(43,28). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(44,1). 
+Part 1 of level 3 of macro @<Aardvark_L3@>.
+
+TEXT COMPONENT: Pos(L,C)=(44,30). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(45,1). 
+Part 1 of level 4 of macro @<Aardvark_L4@>.
+
+TEXT COMPONENT: Pos(L,C)=(45,32). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(46,1). 
+Part 1 of level 5 of macro @<Aardvark_L5@>.
+
+TEXT COMPONENT: Pos(L,C)=(46,34). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+5. Ensure that different levels can have different modifiers.<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(50,1). 
+Part 1 of level 0 of macro @<Emu@>.
+
+TEXT COMPONENT: Pos(L,C)=(50,18). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(51,1). 
+Part 1 of level 1 of macro @<Emu@>.
+
+TEXT COMPONENT: Pos(L,C)=(51,18). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+6. Ensure that different levels can have different parameter lists.<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(55,1). 
+Part 1 of level 0 of macro @<Wombat@>.
+
+TEXT COMPONENT: Pos(L,C)=(55,25). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(56,1). 
+Part 1 of level 1 of macro @<Wombat@>.
+
+TEXT COMPONENT: Pos(L,C)=(56,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+7. Ensure that different levels can have differently additive.<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(60,1). 
+Part 1 of level 0 of macro @<Penguin@>.
+
+TEXT COMPONENT: Pos(L,C)=(60,22). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(61,1). 
+Part 1 of level 1 of macro @<Penguin@>.
+
+TEXT COMPONENT: Pos(L,C)=(61,24). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+End of library construct parser tests.<010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| PR11: Test parsing of library macros.
+     2     2| 
+     3     3| 1. Ensure that 0..5 Ls are OK, but six or seven is an error.
+     4     4| 
+     5     5| @$@<Sloth_L0@>@Z@{@}
+     6     6| @$@<Sloth_L1@>@Z@L@{@}
+     7     7| @$@<Sloth_L2@>@Z@L@L@{@}
+     8     8| @$@<Sloth_L3@>@Z@L@L@L@{@}
+     9     9| @$@<Sloth_L4@>@Z@L@L@L@L@{@}
+    10    10| @$@<Sloth_L5@>@Z@L@L@L@L@L@{@}
+    11    11| @$@<Sloth_L6@>@Z@L@L@L@L@L@L@{@}
+       Error|.............................^You cannot specify more than 5 @L library markers.
+            |.............................^Skipping after error to the next major construct...
+    12    12| @$@<Sloth_L7@>@Z@L@L@L@L@L@L@L@{@}
+            |.^...skipped to here after the error.
+       Error|...............................^You cannot specify more than 5 @L library markers.
+            |...............................^Skipping after error to the next major construct...
+    13    13| 
+    14    14| 2. Ensure that output macros can't also be library macros.
+    15    15| 
+    16    16| @O@<pr11.out@>@L@{@}
+            |.^...skipped to here after the error.
+            |...^Macro definition ignored.
+       Error|...............^Macros attached to output files cannot be library (@L) macros.
+            |...............^Reason: It's important to be able to quickly determine what
+            |...............^output files a FunnelWeb file will produce, and that task is.
+            |...............^made much more difficult if some file macros are overruling
+            |...............^others. To do what you are trying to do, just create a bridge
+            |...............^macro, like this:
+            |...............^   @O@<prog.c@>@{@<Bridge@>@}
+            |...............^   @$@<Bridge@>@L@{void stringhack1()...@}
+            |...............^   ...
+            |...............^   @$@<Bridge@>@{void stringhack2()...@}
+            |.................^Skipping after error to the next major construct...
+    17    17| 
+    18    18| 3. Ensure that you cannot define two macros with both the
+    19    19| same name and level. Ensure that this works for all levels.
+    20    20| 
+    21    21| @$@<Walrus_L0@>@Z@{@}
+            |.^...skipped to here after the error.
+    22    22| @$@<Walrus_L0@>@Z@{@}
+       Error|...^This macro is already fully defined (at line 21).
+            |...^Macro definition ignored.
+            |..................^Skipping after error to the next major construct...
+    23    23| 
+    24    24| @$@<Walrus_L1@>@Z@L@{@}
+            |.^...skipped to here after the error.
+    25    25| @$@<Walrus_L1@>@Z@L@{@}
+       Error|...^This macro is already fully defined (at line 24).
+            |...^Macro definition ignored.
+            |....................^Skipping after error to the next major construct...
+    26    26| 
+    27    27| @$@<Walrus_L2@>@Z@L@L@{@}
+            |.^...skipped to here after the error.
+    28    28| @$@<Walrus_L2@>@Z@L@L@{@}
+       Error|...^This macro is already fully defined (at line 27).
+            |...^Macro definition ignored.
+            |......................^Skipping after error to the next major construct...
+    29    29| 
+    30    30| @$@<Walrus_L3@>@Z@L@L@L@{@}
+            |.^...skipped to here after the error.
+    31    31| @$@<Walrus_L3@>@Z@L@L@L@{@}
+       Error|...^This macro is already fully defined (at line 30).
+            |...^Macro definition ignored.
+            |........................^Skipping after error to the next major construct...
+    32    32| 
+    33    33| @$@<Walrus_L4@>@Z@L@L@L@L@{@}
+            |.^...skipped to here after the error.
+    34    34| @$@<Walrus_L4@>@Z@L@L@L@L@{@}
+       Error|...^This macro is already fully defined (at line 33).
+            |...^Macro definition ignored.
+            |..........................^Skipping after error to the next major construct...
+    35    35| 
+    36    36| @$@<Walrus_L5@>@Z@L@L@L@L@L@{@}
+            |.^...skipped to here after the error.
+    37    37| @$@<Walrus_L5@>@Z@L@L@L@L@L@{@}
+       Error|...^This macro is already fully defined (at line 36).
+            |...^Macro definition ignored.
+            |............................^Skipping after error to the next major construct...
+    38    38| 
+    39    39| 4. Ensure that six identical levels can simultaneously exist.
+    40    40| 
+    41    41| @$@<Aardvark_L0@>@Z@{@}
+            |.^...skipped to here after the error.
+    42    42| @$@<Aardvark_L1@>@Z@L@{@}
+    43    43| @$@<Aardvark_L2@>@Z@L@L@{@}
+    44    44| @$@<Aardvark_L3@>@Z@L@L@L@{@}
+    45    45| @$@<Aardvark_L4@>@Z@L@L@L@L@{@}
+    46    46| @$@<Aardvark_L5@>@Z@L@L@L@L@L@{@}
+    47    47| 
+    48    48| 5. Ensure that different levels can have different modifiers.
+    49    49| 
+    50    50| @$@<Emu@>@Z@M@{@}
+    51    51| @$@<Emu@>@Z@L@{@}
+    52    52| 
+    53    53| 6. Ensure that different levels can have different parameter lists.
+    54    54| 
+    55    55| @$@<Wombat@>@(@3@)@Z@{@}
+    56    56| @$@<Wombat@>@(@1@)@Z@L@{@}
+    57    57| 
+    58    58| 7. Ensure that different levels can have differently additive.
+    59    59| 
+    60    60| @$@<Penguin@>@Z==@{@}
+    61    61| @$@<Penguin@>@Z@L+=@{@}
+    62    62| 
+    63    63| End of library construct parser tests.
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 9 Errors.

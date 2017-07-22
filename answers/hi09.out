@@ -1,0 +1,98 @@
+
+[inherit ('NaryTree'), environment ('NaryTreeSet')]
+
+module NaryTreeSet;
+
+type  NaryTreeSet = ^NaryTreeSetRecord;
+      NaryTreeSetRecord = record
+         Member: NaryTree;
+         Next: NaryTreeSet;
+         end;
+
+procedure NullNaryTreeSet (var Result: NaryTreeSet);
+begin new (Result);
+Result^.Member := (- MaxInt)::NaryTree;
+Result^.Next := nil end;
+
+function IsNullNaryTreeSet (S: NaryTreeSet): boolean;
+begin IsNullNaryTreeSet := S^.Member::integer = - MaxInt end;
+
+procedure ForEachNaryTree (S: NaryTreeSet; procedure DoIt (i: NaryTree));
+var   ThisS, NextS: NaryTreeSet;
+begin ThisS := S;
+while ThisS^.Member::integer <> - MaxInt do
+   begin NextS := ThisS^.Next;
+   DoIt (ThisS^.Member);
+   ThisS := NextS end;
+end;
+
+function FirstNaryTree (S: NaryTreeSet): NaryTree;
+begin FirstNaryTree := S^.Member end;
+
+function IsNaryTreeInSet (i: NaryTree; S: NaryTreeSet): boolean;
+   procedure TestEquals (j: NaryTree);
+   begin if EqualNaryTree (i, j) then IsNaryTreeInSet := true; end;
+begin IsNaryTreeInSet := false; ForEachNaryTree (S, TestEquals); end;
+
+function IncludesNaryTreeSet (S1, S2: NaryTreeSet): boolean;
+var Result: boolean;
+   procedure TestIfInS1 (i: NaryTree);
+   begin if Result then if not IsNaryTreeInSet (i, S1) then Result := false; end;
+begin Result := true;
+ForEachNaryTree (S2, TestIfInS1);
+IncludesNaryTreeSet := Result end;
+
+function DisjointNaryTreeSets (S1, S2: NaryTreeSet): boolean;
+var Result: boolean;
+   procedure TestIfInS1 (i: NaryTree);
+   begin if Result then if IsNaryTreeInSet (i, S1) then Result := false; end;
+begin Result := true;
+ForEachNaryTree (S2, TestIfInS1);
+DisjointNaryTreeSets := Result end;
+
+function EqualNaryTreeSet (S1, S2: NaryTreeSet): boolean;
+begin
+EqualNaryTreeSet := IncludesNaryTreeSet (S1, S2) and IncludesNaryTreeSet (S2, S1);
+end;
+
+procedure InsertNaryTree (i: NaryTree; var S: NaryTreeSet);
+var   This, Pred, Succ: NaryTreeSet;
+begin
+if not IsNaryTreeInSet (i, S) then
+   begin
+   Pred := nil; Succ := S;
+   while Succ^.Member::integer > i::integer do begin
+      Pred := Succ; Succ := Succ^.Next end;
+   if Succ^.Member::integer < i::integer then begin
+      new (This); This^.Next := Succ; This^.Member := i;
+      if Pred <> nil then Pred^.Next := This else S := This;
+      end;
+   end;
+end;
+
+procedure InsertNaryTrees (S1: NaryTreeSet; var S2: NaryTreeSet);
+var   This, Pred, Succ: NaryTreeSet;
+   procedure AddNaryTree (i: NaryTree);
+   begin InsertNaryTree (i, S2) end;
+begin
+ForEachNaryTree (S1, AddNaryTree);
+end;
+
+procedure RemoveNaryTree (i: NaryTree; var S: NaryTreeSet);
+var   Pred, This: NaryTreeSet;
+begin
+Pred := nil; This := S;
+while not EqualNaryTree (This^.Member, i) do begin
+   Pred := This; This := This^.Next end;
+if Pred <> nil then Pred^.Next := This^.Next else S := This^.Next;
+Dispose (This);
+end;
+
+procedure DisposeNaryTreeSet (var S: NaryTreeSet);
+var   Old: NaryTreeSet;
+begin
+while S <> nil do begin Old := S; S := S^.Next; Dispose (Old) end;
+end;
+
+end.
+

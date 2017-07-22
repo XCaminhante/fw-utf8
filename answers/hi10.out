@@ -1,0 +1,23 @@
+
+/* Pre: sorted(b). */
+i=1; p=1;
+while (i != N)
+  {
+   /* Invariant: sorted(b) and 1<=i<=N and           */
+   /*            p is len of longest run in b[1..i]. */
+   i++; if (b[i] != b[i-p]) p++;
+  }
+/* Post: sorted(b) and p is the length of the longest run in b[1..N]. */
+
+
+bool comp(p,q)
+char *p,*q;
+{
+ while (TRUE)
+   {
+    if (*p != *q  ) return FALSE;
+    if (*p == '\0') return TRUE;
+    p++; q++;
+   }
+}
+

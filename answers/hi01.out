@@ -1,0 +1,9 @@
+
+while the_walrus_is_sleepy do
+   begin
+   writeln('zzzzzzz');
+   
+   wake_up_the_walrus(the_walrus);
+   
+   writeln('Umpharumpha...');
+   end;

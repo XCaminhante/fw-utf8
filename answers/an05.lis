@@ -1,0 +1,25 @@
+FUNNELWEB LISTING FILE
+======================
+
+E: No output files specified.
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| AN05: Test analysis of library macros.
+     2     2| 
+     3     3| 1. Ensure that zero call detection works on library macros.
+     4     4| 
+     5     5| @$@<Sloth@>@L@{@}
+       Error|.^This macro is never used (and has no @Z).
+     6     6| 
+     7     7| 2. Ensure that multiple call detection works on library macros.
+     8     8| 
+     9     9| @$@<Walrus@>@L@{@}
+       Error|.^This macro is used more than once (and has no @M).
+    10    10| @$@<Aardvark@>@Z@{@<Walrus@>@<Walrus@>@}
+    11    11| 
+    12    12| End of tests.
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 3 Errors.

@@ -1,0 +1,32 @@
+TG10: Test tangling of library macros.
+
+@O@<tg10.out@>@{@-
+@<Sloth@>
+@<Walrus@>
+@<Emu@>
+@<Aardvark@>
+@}
+
+1. Ensure that the lowest level dominates.
+
+@$@<Sloth@>@{Sloth level zero (correct) @}
+@$@<Sloth@>@L@{Sloth level one@}
+@$@<Sloth@>@L@L@{Sloth level two@}
+@$@<Sloth@>@L@L@L@{Sloth level three@}
+@$@<Sloth@>@L@L@L@L@{Sloth level four@}
+@$@<Sloth@>@L@L@L@L@L@{Sloth level five@}
+
+@$@<Walrus@>@L@L@L@{Walrus level three (correct)@}
+@$@<Walrus@>@L@L@L@L@L@{Walrus level five@}
+
+@$@<Emu@>@L@L@{Emu level two (correct)@}
+@$@<Emu@>@L@L@L@{Emu level three@}
+
+2. Ensure += is working properly.
+
+@$@<Aardvark@>@L+=@{First aardvark level one text (correct)@+@}
+@$@<Aardvark@>@L@L+=@{Second aardvark level two text@}
+@$@<Aardvark@>@L+=@{First aardvark level one text (correct)@+@}
+@$@<Aardvark@>@L@L+=@{Second aardvark level two text@}
+
+End of tests.
