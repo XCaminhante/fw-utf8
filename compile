@@ -1,7 +1,7 @@
 #!/bin/env bash
 cd source
 echo compile and link...
-cc -c *.c
+cc -Wall -c *.c
 compile_result=$?
 cc -o fw *.o
 link_result=$?
