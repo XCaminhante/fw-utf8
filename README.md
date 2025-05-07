@@ -1,16 +1,8 @@
 # fw-utf8
-Modern fork of FunnelWeb 
-(original written by Ross Williams)
-original can be found here: http://www.ross.net/funnelweb/
+A fork of FunnelWeb that simply accepts any characters, printable or not.
 
-== Changelog ==
-- initial commit
-- scanner now allows non-ASCII characters to pass through
-
-== files changed from upstream to first commit ==
-- style.h
-- scanner.c
+The original work was written by Ross Williams and can be found here: http://www.ross.net/funnelweb/
 
 == TODO ==
-- make it use unsigned char instead of whatever compiler decides to provide
-- support more encodings (maybe)
+- [ ] Revamp this oldstyle C code, it's just not my taste
+- [ ] Proper UTF-8 support

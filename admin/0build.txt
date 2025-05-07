@@ -1,14 +1,7 @@
-================================================================================
-
+======================
 HOW TO BUILD FUNNELWEB
 ======================
-For information on building FunnelWeb, see the FunnelWeb
-Developer Manual at:
 
-   http://www.ross.net/funnelweb/developer/
+Run `source/compile.sh` or install https://github.com/XCaminhante/redo then run `redo source/fw`.
 
-The manual can also be obtained from the FunnelWeb FTP archive at:
-
-   ftp://ftp.ross.net/clients/ross/funnelweb/
-
-================================================================================
+A working GCC installation is required.

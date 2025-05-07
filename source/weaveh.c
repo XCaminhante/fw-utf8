@@ -6,6 +6,7 @@ FunnelWeb is a literate-programming macro preprocessor.
 The FunnelWeb web is at http://www.ross.net/funnelweb/
 
 Copyright (c) Ross N. Williams 1992. All rights reserved.
+Copyright (c) X Caminhante 2025. All rights reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of Version 2 of the GNU General Public License as
@@ -27,6 +28,7 @@ recorded prominently in this file. Please record all changes here.
 
 Programmers:
    RNW  Ross N. Williams (ross@ross.net)
+   XCA  X Caminhante (xcaminhante@i2pmail.org)
 
 Changes:
    07-May-1992  RNW  Program prepared for release under GNU GPL V2.
@@ -34,6 +36,7 @@ Changes:
    08-May-1999  RNW  Consolidated the weave TeX/HTML package split.
    08-May-1999  RNW  Added a typesetter check.
    09-May-1999  RNW  Added support for library macros.
+   07-May-2025  XCA  Commented lines 191-195 so fw accepts any non-printable character (I want proper UTF-8 tho)
 
 ##############################################################################*/
 
@@ -185,11 +188,11 @@ bool eolbr;
  /* All other non-printables result in a bullet. In the absence of bugs, the  */
  /* only way a non-printable can get to us here is as a result of the user    */
  /* explicitly inserting one using the scanner's @^ control sequence.         */
- if (!isascprn(ch))
+ /*if (!isascprn(ch))
     {
      wf_wr(&f_t,"&#149;");
      return;
-    }
+    }*/
 
  /* If it IS printable, then print it ... carefully! */
  switch (ch)

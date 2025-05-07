@@ -1,37 +1,27 @@
-================================================================================
-
-FUNNELWEB V3.2
+FUNNELWEB V3.3
 ==============
-Date      : 13 May 1999.
-Author    : Ross N. Williams (ross@ross.net).
-WWW       : http://www.ross.net/funnelweb/
-FTP       : ftp://ftp.ross.net/clients/ross/funnelweb/
-Copyright : Copyright (c) Ross N. Williams 1992. All rights reserved.
-
+Date      : 2025-07-05
+Authors   : Ross N. Williams (ross@ross.net), XCaminhante (xcaminhante@i2pmail.org)
+WWW       : http://www.ross.net/funnelweb/ https://github.com/XCaminhante/fw-utf8
 
 What Is FunnelWeb?
 ------------------
-FunnelWeb is a powerful literate-programming macro
-preprocessor that enables you to weave programs and
-documentation together. FunnelWeb is a production-quality
-tool that was specifically engineered for practical everyday
-use:
 
-   * Can be used with any programming language.
-   * Runs on most platforms.
-   * Free of charge; entirely non-commercial.
-   * Source available under a GNU licence.
-   * Reference, tutorial, and developer manuals.
-   * Mature and essentially bug-free (released 1992).
-   * Simple; specifically designed to minimize errors.
-   * High speed; doesn't stretch the development cycle.
-   * Generates documentation in HTML and TeX forms.
-   * FunnelWeb user community mailing list.
+FunnelWeb is a powerful literate-programming macro preprocessor that enables you to weave programs and documentation
+together. FunnelWeb is a quite-production-quality tool that was specifically engineered for practical everyday use:
 
-FunnelWeb is also a powerful general purpose text file
-preparation tool that has found many applications outside
-the area of literate programming. In particular, FunnelWeb
-is an excellent tool for the preparation of web sites.
+  * Can be used with any programming language.
+  * Runs on most platforms.
+  * Free of charge; entirely non-commercial.
+  * Source available under a GNU licence.
+  * Reference, tutorial, and developer manuals.
+  * Mature and essentially bug-free (released 1992).
+  * Simple; specifically designed to minimize errors.
+  * High speed; doesn't stretch the development cycle.
+  * Generates documentation in HTML and TeX forms (I'm reviewing documentation weaving).
+
+FunnelWeb is also a powerful general purpose text file preparation tool that has found many applications outside
+the area of literate programming. In particular, FunnelWeb is an excellent tool for the preparation of web sites.
 
 For more information visit:
 
@@ -40,10 +30,10 @@ For more information visit:
    http://www.ross.net/funnelweb/reference/
    http://www.ross.net/funnelweb/developer/
 
-
 Copyright And Licensing
 -----------------------
 Copyright (c) Ross N. Williams 1992. All rights reserved.
+Copyright (c) X Caminhante 2025. All rights reserved.
 
 FunnelWeb is free software; you can redistribute it and/or modify
 it under the terms of Version 2 of the GNU General Public License as
@@ -61,33 +51,24 @@ or write to:
     Free Software Foundation, Inc.,
     59 Temple Place - Suite 330, Boston, MA  02111-1307, USA
 
-The source code for FunnelWeb is available somewhere within:
+The source code for FunnelWeb is available at:
 
-      ftp://ftp.ross.net/clients/ross/funnelweb/
-
+  https://github.com/XCaminhante/fw-utf8
 
 Obtaining FunnelWeb
 -------------------
-The FunnelWeb web is at:
+The original FunnelWeb web is at:
 
-   http://www.ross.net/funnelweb/
+  http://www.ross.net/funnelweb/
 
-This web contains instructions on how to obtain and install
-FunnelWeb. If you do not have web access, take a look in the
-following FTP archive:
+This web contains instructions on how to obtain and install FunnelWeb.
 
-   ftp://ftp.ross.net/clients/ross/funnelweb/
+This fork resides at:
 
-There may be one or more subdirectories named by FunnelWeb
-version number. Choose the highest version number and look
-there for the FunnelWeb distribution files.
+  https://github.com/XCaminhante/fw-utf8
 
-IMPORTANT: The "Win32" version of FunnelWeb is for
-           both "Windows 95" and "Windows NT".
-
-
-Unpacking FunnelWeb
-------------------
+Unpacking original FunnelWeb
+----------------------------
 FunnelWeb is shipped as a single archive file. Here are examples
 of how to unpack FunnelWeb on various kinds of platforms. The
 V characters stand for the FunnelWeb version number.
@@ -117,50 +98,42 @@ everywhere.
    OpenVMS : ftp://ftp.wku.edu/vms/unzip.exe (and unzip.alpha_exe).
    Unix    : The tar command is part of Unix.
 
-
 Install The FunnelWeb Executable
 --------------------------------
-Move the FunnelWeb executable to a permanent place on your
-disk. You can place the FunnelWeb directory anywhere you
+Move the FunnelWeb executable to a permanent place on your disk. You can place the FunnelWeb directory anywhere you
 like. Here are some suggested places:
 
    Win32    : C:\FW\
    MS-DOS   : C:\FW\
    MacOS    : HardDisk:FunnelWeb:FunnelWeb
    OpenVMS  : SYS$SYSDEVICE:[FUNNELWEB]FUNNELWEB.EXE;1
-   Unix     : /usr/local/bin/fw
-
+   Unix     : ~/bin/fw
 
 Make The Executable Available
 -----------------------------
-Make the FunnelWeb executable available for execution in
-your shell (as the command "fw") by either defining
-a symbol for it or placing the executable in the "path".
-Here are some examples of how to do this:
+Make the FunnelWeb executable available for execution in your shell (as the command "fw") by either defining
+a symbol for it or placing the executable in the "path". Here are some examples of how to do this:
 
    Win32   : PATH=%PATH%;C:\FW
    MS-DOS  : PATH=%PATH%;C:\FW
    MacOS   : No action required.
    OpenVMS : fw == "$sys$sysdevice:[funnelweb]FUNNELWEB.EXE"
-   Unix    : alias fw /usr/local/bin/fw
-or Unix    : set path=($path /usr/local/bin)
+   Unix    : alias fw ~/bin/fw
+or Unix    : set path=($path ~/bin)
 
-Put the definition in an appropriate login script
-(e.g. AUTOEXEC.BAT, .login, LOGIN.COM) so that the fw
-command will be available next time you log in.
+Put the definition in an appropriate login script (e.g. AUTOEXEC.BAT, .login, LOGIN.COM) so that the fw command will be
+available next time you log in.
 
 Set Protections
 ---------------
-Under some operating systems, you should set appropriate
-protections on the executable file so that it can be
-executed. You should also protect the other files too.
-Here are some examples:
+Under some operating systems, you should set appropriate protections on the executable file so that it can be
+executed. You should also protect the other files too. Here are some examples:
 
    Win32   : Set appropriate protections.
    Win95   : No action required.
    MS-DOS  : No action required .
    MacOS   : No action required (unless installing on a server).
-   Unix    : chmod go=rx /usr/local/bin/fw
+   Unix    : chmod go=rx ~/bin/fw
    OpenVMS : set prot=(s:rwed,o:rwed,g:e,w:e) funnelweb.exe
 
 More Information

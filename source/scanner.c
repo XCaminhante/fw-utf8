@@ -6,6 +6,7 @@ FunnelWeb is a literate-programming macro preprocessor.
 The FunnelWeb web is at http://www.ross.net/funnelweb/
 
 Copyright (c) Ross N. Williams 1992. All rights reserved.
+Copyright (c) X Caminhante 2025. All rights reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of Version 2 of the GNU General Public License as
@@ -27,11 +28,13 @@ recorded prominently in this file. Please record all changes here.
 
 Programmers:
    RNW  Ross N. Williams (ross@ross.net)
+   XCA  X Caminhante (xcaminhante@i2pmail.org)
 
 Changes:
    07-May-1992  RNW  Program prepared for release under GNU GPL V2.
    08-May-1999  RNW  scan_file: Added include file name in two error messages.
    09-May-1999  RNW  Added scanning of @L token (TK_LIBR).
+   07-May-2025  XCA  Commented lines 247-264 so fw accepts any non-printable character (I want proper UTF-8 tho)
 
 ##############################################################################*/
 
@@ -240,7 +243,8 @@ char *p_line;
      /* Note: I don't use library function "isprint" here because on the vax  */
      /* it's definition is too loose (seems to accept characters with the top */
      /* bit set as printable).                                                */
-     if (!isascprn(*p))  /* If not a printable character. */
+     
+     /*if (!isascprn(*p))  / If not a printable character. /
        {
         ps_t ps;
         char c = *p;
@@ -257,7 +261,7 @@ char *p_line;
                    chabbrev(c),(unsigned) uc,(unsigned) uc,(unsigned) uc);
         lr_err(&ps,linet1);
         *p=CENSORCH;
-       }
+       } */
      p++;
     }
  /* Assert: p_line points to the start of the current line.     */
