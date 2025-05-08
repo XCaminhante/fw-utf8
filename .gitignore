@@ -1,5 +1,6 @@
 install
 *.d
 *.o
+*.lis
 source/fw
 .redo

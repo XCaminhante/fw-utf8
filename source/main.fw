@@ -1,0 +1,95 @@
+FunnelWeb is a literate-programming macro preprocessor.
+
+@p maximum_input_line_length = 512
+@p maximum_output_line_length = 512
+
+@i copyright.fw
+
+@$@<changelog@>==@{@-
+07-May-1992  RNW  Program prepared for release under GNU GPL V2.
+08-May-1999  RNW  Added code to set creator/type of output files on Mac.
+07-May-2025  XCA  Renewed GPL preamble, removed legacy I don't need/understand, also I heard you like FunnelWeb, so I'll put FunnelWeb on your FunnelWeb!@}
+
+@O@<main.c@>==@{@-
+@<copyright@>
+@<includes@>
+@<main@>
+@}
+
+@$@<includes@>==@{@-
+#include "style.h"
+#include "as.h"
+#include "command.h"
+#include "data.h"
+#include "machin.h"
+#include "memory.h"@}
+
+07-May-2025 XCA: I'm removing the `minimain` function, since I don't see the need today.
+
+This allows us to set the creator and type of output files on Macintosh.
+
+07-May-2025 XCA: I'm disabling this code.
+
+@$@<_ftype and _fcreator declarations@>@Z==@{@-
+#if OS_MAC
+extern long _ftype;
+extern long _fcreator;
+#endif
+@}
+
+08-May-1999 RNW: On the Macintosh, it's convenient if FunnelWeb output files can be clicked on to invoke a text editor.
+This can be done by setting the creator and type of output files. CodeWarrior makes this very easy.
+All we have to do is set some global variables and from that point on, all output files will have the specified creator/type.
+I originally set the creator to TeachText (ttxt), but soon discovered that TeachText can't open files greater than 32K.
+I looked around for another text application that Apple provides as standard, but couldn't find one.
+So I chose BBEdit, whose creator is "R*ch".
+
+07-May-2025 XCA: I'm disabling this code.
+
+@$@<_ftype and _fcreator initializations@>@Z==@{@-
+#if OS_MAC
+ _fcreator = 'R*ch';
+ _ftype    = 'TEXT';
+#endif
+@}
+
+
+@$@<main@>+=@{@-
+int main (int argc, char** argv) {
+  char  *p_comline;
+  ulong sum_all;
+@}
+
+The principal concern of this main() function is to execute FunnelWeb and to ensure that the correct return status is returned to the OS.
+So it seems appropriate to zero all the global diagnostic counters here.
+
+@$@<main@>+=@{@-
+  sum_fat =sum_sev=sum_err=sum_war =0;
+@}
+
+Some compilers place a low limit on the total amount of statics. So we have to allocate space for a command line.
+
+@$@<main@>+=@{@-
+  p_comline = (char*) mm_perm( (size_t) COMLINE_MAX+1 );
+@}
+
+Obtaining the command line is highly machine specific and so it has been delegated to a function in the non-portable "machin".
+Just in case argc and argv are to be used, we hand them in too. The result of all this is a standard FunnelWeb command line string in the variable 'comline'.
+
+@$@<main@>+=@{@-
+  getcline(argc, argv, p_comline);
+@}
+
+Execute the command line.
+
+@$@<main@>+=@{@-
+  command(p_comline);
+@}
+
+Exit to the operating system with an appropriate status code.
+
+@$@<main@>+=@{@-
+  sum_all = sum_war+sum_err+sum_sev+sum_fat;
+  if (sum_all>0) { return EXIT_FAILURE; }
+  return EXIT_SUCCESS;
+}@}
