@@ -2075,10 +2075,11 @@ char *p_comline;
 /* Note: To change the version number you need only change this and a help message */
 /*       in help.c                                                                 */
 
- wl_sj("FunnelWeb Version 3.2 (May 1999)");
+ wl_sj("FunnelWeb Version 3.3 (May 2025)");
  wl_sj("--------------------------------");
  wl_sj("Copyright (c) Ross N. Williams 1992. All rights reserved.");
- wl_sj("See http://www.ross.net/funnelweb/ There is ABSOLUTELY NO WARRANTY.");
+ wl_sj("Copyright (c) X Caminhante 2025. All rights reserved.");
+ wl_sj("See https://github.com/XCaminhante/fw-utf8 There is ABSOLUTELY NO WARRANTY.");
  wl_sj("You are welcome to distribute this software under certain conditions.");
  if (p_comopt->op_k_b)
  wl_sj("For more information, type HELP.");

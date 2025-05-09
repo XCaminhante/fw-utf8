@@ -382,6 +382,7 @@ LOCAL void hel_ver ()
  WX("the Ada code into C. Ross N. Williams then extensively reworked the C code,\n");
  WX("making it robust and portable, adding new features, and polishing it to its\n");
  WX("1992 V3.0 release. In 1999 he released V3.2.\n");
+ WX("A extensive revision of FunnelWeb is been made in 2025 by X Caminhante.\n");
  WX("\n");
  WX("Vers  Lang  Created  Released   Author          Copyright      Licensing      \n");
  WX("----  ----  -------  --------   --------------  -------------  ---------      \n");
@@ -390,8 +391,9 @@ LOCAL void hel_ver ()
  WX("V3.0  C     1992     May-1992   Ross  Williams  Ross Williams  GNU release.   \n");
  WX("V3.1  C     1993     Never      Ross  Williams  Ross Williams  Not released.  \n");
  WX("V3.2  C     1999     May-1999   Ross  Williams  Ross Williams  GNU release.   \n");
+ WX("V3.3  C     2025     May-2025   X Caminhante    X Caminhante   GNU release.   \n");
  WX("\n");
- WX("This is FunnelWeb Version 3.2.");
+ WX("This is FunnelWeb Version 3.3.");
  WX("For more information on versions, refer to the FunnelWeb Reference Manual at:\n");
  WX("   http://www.ross.net/funnelweb/reference/\n");
 }
