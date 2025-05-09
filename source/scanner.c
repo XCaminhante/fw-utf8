@@ -1743,7 +1743,7 @@ char *p_fname;
  p_mapped[length]=EOFCH;
 
  /* Initialize the variables "instantiated over a single file". */
- inln_max  = 80;
+ inln_max  = INMAXINF;
  specialch = CH_DSPE;
  localno   = 0;
  p_eof     = &p_mapped[length];
@@ -1823,7 +1823,7 @@ p_ck_t p_ascan; /* Scanner's clock (running). */
  tgindent=TRUE;
 
  /* Initialize the global product line length limit to the default value. */
- tglinmax=80;
+ tglinmax=TGMAXINF;
 
  /* Initialize the global typesetter flag to the default value. */
  tr_codes=TR_NONE;
